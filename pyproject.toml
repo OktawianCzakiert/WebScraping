@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "homework8"
+version = "0.1.0"
+description = ""
+authors = ["Oktawian Czakiert <110773676+OktawianCzakiert@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+certifi = "^2023.11.17"
+mongoengine = "^0.27.0"
+pymongo = "^4.6.1"
+faker = "^21.0.0"
+pika = "^1.3.2"
+beautifulsoup4 = "^4.12.2"
+lxml = "^5.0.1"
+requests = "^2.31.0"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
